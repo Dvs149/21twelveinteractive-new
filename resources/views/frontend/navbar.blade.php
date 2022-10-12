@@ -38,7 +38,7 @@
           @endif
         </a>
 
-        <a class="nav-link" href="{{url('/login')}}">logout</a>
+        <a class="nav-link" href="{{url('/logout')}}">logout</a>
       @endif
       
     </div>
