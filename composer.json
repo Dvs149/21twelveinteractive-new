@@ -46,6 +46,11 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
+        ],
+        "dvs":[
+            "@composer install",
+            "@php artisan migrate",
+            "@php artisan key:generate"
         ]
     },
     "extra": {
